@@ -7,8 +7,8 @@ import telebot
 
 
 # API ключи Binance
-api_key = ('ghGCOpbb4frqMLiaHs3Sp0jJmHDjOFOa2UpCRUyKdqaL43VuObV3jgFlTPJhU8Eg')
-api_secret = ('wwOjNBXLq2VyIKBw3rNMpodMk7kBT01GWkSrsXAyAboJ7Y2pDe6hvjqOfgwLXDo7')
+api_key = ('')
+api_secret = ('')
 
 
 # Инициализация клиента
@@ -49,7 +49,7 @@ def priceF(symbol):
 
 
 # Инициализация бота Телеграм
-api_telegram = ('6378829204:AAHtPK8eBcpn0r6PAGlMdcgutLyq5IVJROI')
+api_telegram = ('')
 bot = telebot.TeleBot(api_telegram)
 
 
